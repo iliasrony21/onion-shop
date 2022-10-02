@@ -1,0 +1,19 @@
+.title {
+  padding-top: 160px;
+}
+.search-box {
+  display: flex;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+.search-box input {
+  height: 40px;
+  width: 380px;
+  border-radius: 25px;
+  border: none;
+  padding: 15px;
+}
+.buttonsearch .buttons {
+  /* width: 90px; */
+  margin-left: -50px;
+}

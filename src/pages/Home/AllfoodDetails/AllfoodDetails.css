@@ -1,0 +1,90 @@
+.allbtn {
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.allbtn li {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.foodcontainer img {
+  width: 220px;
+  height: 220px;
+}
+.alldetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.foodcontainer:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 50px #ccc;
+  border: none;
+  border-radius: 15px;
+}
+.details {
+  display: flex;
+  position: relative;
+}
+.details .pic-part img {
+  width: 600px;
+  height: 600px;
+  margin-top: -60px;
+}
+.text-part {
+  margin-top: 110px;
+}
+.header {
+  position: absolute;
+  top: 40px;
+  left: 345px;
+  margin-left: -350px;
+}
+.describe {
+  margin-right: 120px;
+  text-align: justify;
+}
+.price {
+  margin-left: -620px;
+  margin-top: 5px;
+}
+.allwrap {
+  border-radius: 25px;
+  height: 30px;
+  position: absolute;
+  top: 255px;
+  left: 90px;
+  width: 90px;
+  border: none;
+}
+.plus {
+  border: none;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+  left: 55px;
+  background: none;
+
+  font-size: 25px;
+}
+.minus {
+  border: none;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+  left: 5px;
+  background: none;
+  font-size: 25px;
+}
+.addbtn {
+  margin-left: -550px;
+  margin-top: 15px;
+  border: none;
+  width: 140px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #f91944;
+  color: white;
+}

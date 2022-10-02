@@ -1,0 +1,34 @@
+.header-details {
+  display: flex;
+}
+.picture img {
+  width: 140px;
+  height: 40px;
+  margin-left: 160px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.linkup ul {
+  margin-left: 900px;
+  display: flex;
+}
+.linkup li {
+  text-decoration: none;
+  font-size: 18px;
+  list-style: none;
+  margin-right: 30px;
+}
+.loginbtn {
+  margin-top: 23px;
+  text-decoration: none;
+  color: black;
+}
+.buttons {
+  border-radius: 25px;
+  height: 40px;
+  width: 130px;
+  margin-top: 18px;
+  background-color: #e8173f;
+  color: white;
+  border: none;
+}
